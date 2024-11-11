@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/ed/static/css/main.69b81aad.css",
+    "main.js": "/ed/static/js/main.4b32c878.js",
+    "static/js/770.b477def6.chunk.js": "/ed/static/js/770.b477def6.chunk.js",
+    "static/js/453.1407b060.chunk.js": "/ed/static/js/453.1407b060.chunk.js",
+    "static/media/customs.png": "/ed/static/media/customs.d4b5eeb38cce7e14b4d5.png",
+    "static/media/Edmond CV.pdf": "/ed/static/media/Edmond CV.a7025de7b6c0e4e6b6d5.pdf",
+    "static/media/profile-image.png": "/ed/static/media/profile-image.54cc9c9e4ccea33ee22d.png",
+    "static/media/twitter_data.png": "/ed/static/media/twitter_data.7ec2b90349874f6060b9.png",
+    "static/media/loan_project.png": "/ed/static/media/loan_project.972066aec60b8af5280b.png",
+    "static/media/average_metric_graphs.png": "/ed/static/media/average_metric_graphs.c03503026908e35ca003.png",
+    "static/media/application-performance.jpg": "/ed/static/media/application-performance.000632671dc2876377e4.jpg",
+    "static/media/avatar.svg": "/ed/static/media/avatar.7f806e40d46fc76fbc3c4a3d71349951.svg",
+    "static/media/pre.svg": "/ed/static/media/pre.4410c5baaa673cc131da.svg",
+    "index.html": "/ed/index.html",
+    "main.69b81aad.css.map": "/ed/static/css/main.69b81aad.css.map",
+    "main.4b32c878.js.map": "/ed/static/js/main.4b32c878.js.map",
+    "770.b477def6.chunk.js.map": "/ed/static/js/770.b477def6.chunk.js.map",
+    "453.1407b060.chunk.js.map": "/ed/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69b81aad.css",
+    "static/js/main.4b32c878.js"
+  ]
+}
