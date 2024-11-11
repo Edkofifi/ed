@@ -43,7 +43,7 @@ function Projects() {
               description="The performance application is built for a client in Ghana. It allows to assign tasks/goals for departments,
               and individual employees, assess those and generate a report."
               ghLink=""
-              demoLink="/"
+              demoLink=""
             />
           </Col>
 

@@ -76,45 +76,62 @@ function Home2() {
               <span className="purple">Edmond Agbovi-Teye</span>
             </h1>
             <p className="home-about-body">
-              I am a software developer working on contract as a back-end. Currently, I am working on a custom declaration application that provides a medium to make customs declarations to the UK.
+              I am a software developer working currently on contract basis as a back-end(er) 
+              on a custom application that facilitate export and import
+              declarations to the UK's HMRC. This is a role that involves designing database, 
+              developing APIs, and working with the HMRC APIs to transmit declaration data to external systems.
             </p>
 
             <p className="home-about-body">
-              Prior to that, I worked as an inspector for a large language model (LLM) dataset (mostly python codes) construction project where I ensured data created to refine the model's responses are of high quality and very conversational. In that role, I worked directly on more than 1000 human responses. Before that, I worked with Ghana Education Service as a K-12 teacher, teaching mainly ICT and Basic Mathematics. During that time, I also worked as a part-time school administrator.
+              Prior to that, I worked as an inspector on a large language model (LLM)
+               dataset construction project, primarily consisting of Python codes. I implemented data 
+               quality principles to ensure that the data used to refine the model's 
+               responses was both high-quality and conversational. I contributed directly to over
+               1,000 human responses. Additionally, I have experience working with Ghana Education Service as a K-12 
+               teacher, teaching ICT, and Mathematics. During this time, I also worked 
+               as a part-time school administrator.
             </p>
 
             <p className="home-about-body">
-              I completed my undergraduate studies at the University of Ghana (UG) in September, 2023 in computer science. In my final year, I worked on research projects in collaboration with a PhD student, which culminated in my final year project. I also worked on projects involving recommendation systems, data analytics, and network performance. I started my education at the University of Cape Coast (UCC) in 2014, which prepared me for my initial work in education. Coming from education as my first career, I intend on pursuing a PhD in computer science to expand my knowledge as a researcher in data management and reinforcement learning. 
+              I completed my undergraduate studies in computer science at the University of Ghana (UG) in
+               September, 2023. In my final year, I collaborated with a PhD student, which culminated 
+               in my final-year thesis. Additionally, I worked on projects involving 
+               recommendation systems, data analytics, and network performance analysis. 
+               Prior to UG, I began my education at the University of Cape Coast (UCC) in 2014, studying education,
+                which provided the foundation for my initial career in education.
+            </p>
+            <p className="home-about-body">
+              Coming from education as my first career, I am passionate about continuing my academic journey. 
+              I intend to pursue a PhD in Computer Science to further my research in data management and reinforcement learning with human feedback.
             </p>
 
             <p className="home-about-body">
+              I love teaching. Currently, I am a volunteer teacher at AF Youth Mentorship program where I teach programming. Interested? you can check or join 
 
-              <a href="https://classroom.google.com/c/NzI2MzAwNzk0NTIy?cjc=6buwary"> here</a>
+              <a href="https://classroom.google.com/c/NzI2MzAwNzk0NTIy?cjc=6buwary"> here.</a> This is mostly a Python course. 
             </p>
 
-            <p className="home-about-body">
-              <br />Mostly, I work with
-              <i>
-                <b className="purple">Python, Javascript, Java</b>
-              </i>
-              <br />
-              <br />
-              My fields of interest are building &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products</b>
-              </i> and also in areas related to{" "}
-              <b className="purple">machine learning</b>.
-              <br />  
-              <br />
-              {/* Whenever possible, I also apply my passion for developing products with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple"> Modern Javascript Libraries and Frameworks</b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i> */}
-            </p>
+            <Row className="align-items-start">
+              {/* Interest Section (Left Column) */}
+              <Col md={8} className="home-about-description">
+                <h2>Interest</h2>
+                <ul className="interest-list">
+                  <li><b className="purple">Data Quality and Management</b></li>
+                  <li><b className="purple">Reinforcement Learning with Human Feedback</b></li>
+                  <li><b className="purple">Software Development</b></li>
+                  
+                </ul>
+              </Col>
+
+              {/* Education Section (Right Column) */}
+              <Col md={4} className="home-about-description">
+                <h2>My Education</h2>
+                <ul className="education-list">
+                  <li><b>Computer Science</b>, University of Ghana (2019 - 2023)</li>
+                  <li><b>Diploma in Education</b>, University of Cape Coast (2011 - 2014)</li>
+                </ul>
+              </Col>
+            </Row>
           </Col>
         </Row>
 
