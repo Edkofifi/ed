@@ -1,8 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
-import Tilt from "react-parallax-tilt";
-import homeLogo from "../../Assets/profile-image.png";
+import Code from "../../Assets/code.webp";
+import Particle from "../Particle";
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -10,9 +9,13 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
-function Home2() {
+function WhyCode() {
   return (
-    <Container fluid className="home-about-section" id="about">
+    <section>
+    <Particle />
+    <Container fluid className="home-about-section"
+         id="about"
+         style={{marginTop:"50px"}}>
       <Container>
         <Row className="align-items-start"> 
           {/* Image Column (1/3 width) */}
@@ -22,7 +25,7 @@ function Home2() {
             style={{
               paddingBottom: 20,
               paddingLeft: "30px",
-              paddingTop: "20px", 
+              paddingTop: "40px", 
               display: "flex",  
               flexDirection: "column", // Stack image and text vertically
               alignItems: "center",  // Center content horizontally
@@ -30,7 +33,7 @@ function Home2() {
           >
             {/* Image */}
             <img
-              src={homeLogo}
+              src={Code}
               alt="home pic"
               className="img-fluid profile-img"
               
@@ -38,37 +41,11 @@ function Home2() {
             
             {/* Name and Job Role under the Image */}
             <div style={{ textAlign: "center", marginTop: "20px" }}>
-              <h3 style={{ color: "#283461" }}>Edmond Agbovi-Teye</h3>
-              <p style={{ fontSize: "1.2em", fontWeight: "600", color: "#555" }}>
-                Software Developer
-              </p>
+              
 
               <p style={{ fontSize: "1.5em", fontWeight: "700", color: "#0f5291" }}>
                 code.whyCode()
               </p>
-
-              <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href="https://github.com/Edkofifi"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/edmond-teye/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-            </ul>
             </div>
           </Col>
 
@@ -76,34 +53,31 @@ function Home2() {
 
           {/* Text Column (2/3 width) */}
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              <span className="purple">Edmond Agbovi-Teye</span>
-            </h1>
+            <p style={{ fontSize: "1.5em", fontWeight: "700", color: "#0f5291" }}>
+                code.whyCode()
+            </p>
             
             <p className="home-about-body">
-              I am a software developer working currently on contract basis as a back-end(er) 
-              on a custom application that facilitate export and import
-              declarations to the UK's HMRC. This is a role that involves designing database, 
-              developing APIs, and working with the HMRC APIs to transmit declaration data to external systems.
+            I started teaching my peers basic Math as a grade 6-8 student, not knowing that will become a passion. You know, there are few things I do without getting tired, and teaching is obviously #1 on the list. From grade 6 to college, I have taught colleagues on countless occassions. 
+            Tell me what else could be passion. For five years, that became my job. Guess when your passion is your job. I LOVE every moment of standing before those kids and imparting knowledge. 
+            </p>
+
+            <p style={{ fontSize: "1.5em", fontWeight: "400", color: "#0f5291" }}>
+                Teaching Philosophy
+              </p>
+
+            <p className="home-about-body">
+             When I was teaching some students about string slicing, a student asked "But what do we need negative indexes for"? I thought to myself, "wow, what a nice question". After explaining  that sometimes, it's quicker when we want to find what's in the other end of the string, and demonstrating this, I left the class thinking, what if we tell students why we do what we do when learning programming?
+
             </p>
 
             <p className="home-about-body">
-              Prior to that, I worked as an inspector on a large language model (LLM)
-               dataset construction project, primarily consisting of Python codes. I implemented data 
-               quality principles to ensure that the data used to refine the model's 
-               responses was both high-quality and conversational. I contributed directly to over
-               1,000 human responses. Additionally, I have experience working as a K-12 
-               instructor. During this time, I also worked 
-               as a part-time school administrator.
+            code.whyCode() is a learning idea that incorporates the 'why' concept into the teaching and learning, in this case learning to code. This learning approach emphasizes what we need the tools (concepts) above what the syntax could be. 
+             
             </p>
 
             <p className="home-about-body">
-              I completed my undergraduate studies in computer science at the University of Ghana (UG) in
-               September, 2023. In my final year, I collaborated with a PhD student, which culminated 
-               in my final-year thesis. Additionally, I worked on projects involving 
-               recommendation systems, data analytics, and network performance analysis. 
-               Prior to UG, I began my education at the University of Cape Coast (UCC) in 2014, studying education,
-                which provided the foundation for my initial career in education.
+            As a teacher, you might be implementing code.whyCode() in your lessons inadvertently through classroom activities and assessment. What does code.whyCode() means to you then? Awareness is key. It makes you more intentional and more so, explore how this concept can be incorporated into into lesson plans. 
             </p>
             <p className="home-about-body">
               Coming from education as my first career, I am passionate about continuing my academic journey. 
@@ -175,7 +149,8 @@ function Home2() {
         </Row>
       </Container>
     </Container>
+    </section>
   );
 }
 
-export default Home2;
+export default WhyCode;
