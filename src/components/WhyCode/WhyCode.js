@@ -73,7 +73,7 @@ function WhyCode() {
             </p>
 
             <p className="home-about-body">
-            code.whyCode() is a learning idea that incorporates the 'why' concept into the teaching and learning, in this case learning to code. This learning approach emphasizes what we need the tools (concepts) above what the syntax could be. 
+            code.whyCode() is a teaching approach that incorporates the 'why' concept into the teaching and learning, in this case learning to code. This learning approach emphasizes what we need the tools (concepts) above what the syntax could be. 
              
             </p>
 

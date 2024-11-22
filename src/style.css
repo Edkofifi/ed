@@ -386,6 +386,7 @@ button:focus {
   padding-top: 10px;
   font-size: 1.2em !important;
   text-align: justify;
+  margin-right: 3em;
 }
 
 .home-about-social {
