@@ -1,8 +1,8 @@
 {
-  "homepage": "https://Edkofifi.github.io/ed", 
+  "homepage": "https://Edkofifi.github.io/ed",
   "name": "portfolio",
   "version": "0.1.0",
-  "private": true, 
+  "private": true,
   "dependencies": {
     "@react-pdf/renderer": "^2.2.0",
     "@testing-library/jest-dom": "^5.16.2",
@@ -19,7 +19,8 @@
     "react-pdf": "^5.7.1",
     "react-router-dom": "^6.2.2",
     "react-scripts": "5.0.0",
-    "react-tsparticles": "^1.42.2", 
+    "react-syntax-highlighter": "^15.6.1",
+    "react-tsparticles": "^1.42.2",
     "typewriter-effect": "^2.18.2",
     "web-vitals": "^2.1.4"
   },

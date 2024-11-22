@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Code from "../../Assets/code.webp";
 import Particle from "../Particle";
+import CodeBlock from "./Code";
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -79,7 +80,10 @@ function WhyCode() {
             <p className="home-about-body">
             As a teacher, you might be implementing code.whyCode() in your lessons inadvertently through classroom activities and assessment. What does code.whyCode() means to you then? Awareness is key. It makes you more intentional and more so, explore how this concept can be incorporated into into lesson plans. 
             </p>
-
+            <p style={{ fontSize: "1.2em", fontWeight: "400", color: "#0f5291" }}>
+                Programmatic Implementation of <strong>Code.Whycode()</strong>
+              </p>
+            <CodeBlock/>
     
           </Col>
         </Row>
