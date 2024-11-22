@@ -44,7 +44,7 @@ function WhyCode() {
               
 
               <p style={{ fontSize: "1.5em", fontWeight: "700", color: "#0f5291" }}>
-                code.whyCode()
+                Code.whyCode()
               </p>
             </div>
           </Col>
@@ -62,7 +62,7 @@ function WhyCode() {
             Tell me what else could be passion. For five years, that became my job. Guess when your passion is your job. I LOVE every moment of standing before those kids and imparting knowledge. 
             </p>
 
-            <p style={{ fontSize: "1.5em", fontWeight: "400", color: "#0f5291" }}>
+            <p style={{ fontSize: "1.2em", fontWeight: "400", color: "#0f5291" }}>
                 Teaching Philosophy
               </p>
 
@@ -79,72 +79,8 @@ function WhyCode() {
             <p className="home-about-body">
             As a teacher, you might be implementing code.whyCode() in your lessons inadvertently through classroom activities and assessment. What does code.whyCode() means to you then? Awareness is key. It makes you more intentional and more so, explore how this concept can be incorporated into into lesson plans. 
             </p>
-            <p className="home-about-body">
-              Coming from education as my first career, I am passionate about continuing my academic journey. 
-              I intend to pursue a PhD in Computer Science to further my research in computer science education, human
-              computer interaction, and reinforcement learning with human feedback.
-            </p>
 
-            <p className="home-about-body">
-              I love teaching. Currently, I am a volunteer teacher at AF Youth Mentorship program where I teach programming. Interested? you can check or join 
-
-              <a href="https://classroom.google.com/c/NzI2MzAwNzk0NTIy?cjc=6buwary"> here.</a> This is mostly a Python course. 
-            </p>
-
-            <Row className="align-items-start">
-              {/* Interest Section (Left Column) */}
-              <Col md={8} className="home-about-description">
-                <h2>Interest</h2>
-                <ul className="interest-list">
-                  <li><b className="purple">Computer Science Education</b></li>
-                  <li><b className="purple">Human Computer Interaction</b></li>
-                  <li><b className="purple">Reinforcement Learning with Human Feedback</b></li>
-                  
-                </ul>
-              </Col>
-
-              {/* Education Section (Right Column) */}
-              <Col md={4} className="home-about-description">
-                <h2>My Education</h2>
-                <ul className="education-list">
-                  <li><b>Computer Science</b>, University of Ghana (2019 - 2023)</li>
-                  <li><b>Diploma in Education</b>, University of Cape Coast (2011 - 2014)</li>
-                </ul>
-              </Col>
-            </Row>
-          </Col>
-        </Row>
-
-        {/* Social Links Row */}
-        <Row>
-          <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="purple">connect</span> with me
-            </p>
-            <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href="https://github.com/Edkofifi"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-             
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/edmond-teye/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-            </ul>
+    
           </Col>
         </Row>
       </Container>
