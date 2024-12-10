@@ -44,7 +44,7 @@ function Home2() {
               </p>
 
               <p style={{ fontSize: "1.5em", fontWeight: "700", color: "#0f5291" }}>
-                code.whyCode()
+                {/* Read about code.whyCode() */}
               </p>
 
               <ul className="home-about-social-links">
@@ -93,8 +93,7 @@ function Home2() {
                quality principles to ensure that the data used to refine the model's 
                responses was both high-quality and conversational. I contributed directly to over
                1,000 human responses. Additionally, I have experience working as a K-12 
-               instructor. During this time, I also worked 
-               as a part-time school administrator.
+               instructor. During this time, I also worked as a part-time school administrator.
             </p>
 
             <p className="home-about-body">
@@ -102,8 +101,8 @@ function Home2() {
                September, 2023. In my final year, I collaborated with a PhD student, which culminated 
                in my final-year thesis. Additionally, I worked on projects involving 
                recommendation systems, data analytics, and network performance analysis. 
-               Prior to UG, I began my education at the University of Cape Coast (UCC) in 2014, studying education,
-                which provided the foundation for my initial career in education.
+               Prior to UG, I began my education at the University of Cape Coast (UCC), studying education,
+                which provided the foundation for my initial career.
             </p>
             <p className="home-about-body">
               Coming from education as my first career, I am passionate about continuing my academic journey. 
