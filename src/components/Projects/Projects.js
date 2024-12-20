@@ -72,6 +72,17 @@ function Projects() {
               />
           </Col> 
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={e-commerce}
+              isBlog={false}
+              title="Course Project"
+              description="This is a mini course project submitted within the semester. It assesses key skills in databse design, backend development in C#.  "
+              ghLink="https://github.com/Edkofifi/shoprite/tree/base"
+              demoLink="https://youtu.be/uJhhBX6ZJ0s"
+            />
+          </Col>
+
           <Col md={4} className="project-card">  
             <ProjectCard
                 imgPath={loan_project}
@@ -95,6 +106,8 @@ function Projects() {
               demoLink=""
             />
           </Col>
+
+          
 
         </Row>
       </Container>
