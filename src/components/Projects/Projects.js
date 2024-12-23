@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import llm_data from "../../Assets/Projects/llm_dataset.png";
 import twitter_data from "../../Assets/Projects/twitter_data.png";
-import e_commerce from "../../Assets/Projects/twitter_data.png";
+import e_commerce from "../../Assets/Projects/e_commerce.jpg";
 import outlier_metric from "../../Assets/Projects/average_metric_graphs.png";
 import loan_project from "../../Assets/Projects/loan_project.png";
 import customs from "../../Assets/Projects/customs.png";
