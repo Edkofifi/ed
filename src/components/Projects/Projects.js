@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import llm_data from "../../Assets/Projects/llm_dataset.png";
 import twitter_data from "../../Assets/Projects/twitter_data.png";
+import e_commerce from "../../Assets/Projects/twitter_data.png";
 import outlier_metric from "../../Assets/Projects/average_metric_graphs.png";
 import loan_project from "../../Assets/Projects/loan_project.png";
 import customs from "../../Assets/Projects/customs.png";
@@ -74,7 +75,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={e-commerce}
+              imgPath={e_commerce}
               isBlog={false}
               title="Course Project"
               description="This is a mini course project submitted within the semester. It assesses key skills in databse design, backend development in C#.  "
@@ -89,7 +90,7 @@ function Projects() {
                 isBlog={false}
                 title="Loan Analysis Project"
                 description="A project submitted as part of final requirement in Udacity 
-                nano degree program. It investigated variables that impact loan defaults. "
+                nano degree program. I investigated variables that impact loan defaults. "
                 ghLink="https://github.com/Edkofifi/Project_Loans"
                 demoLink=""
               />
