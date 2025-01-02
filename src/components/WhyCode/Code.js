@@ -1,7 +1,6 @@
 import React from 'react';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
-import { vs  } from 'react-syntax-highlighter/dist/esm/styles/prism';  // Use 'prism' instead of 'docco'
-
+import { vs  } from 'react-syntax-highlighter/dist/esm/styles/prism'; 
 function CodeBlock() {
   const codeString = `
 class ProgrammingConcept:
