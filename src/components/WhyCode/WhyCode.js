@@ -60,7 +60,7 @@ function WhyCode() {
             
             <p className="home-about-body">
             I started teaching my peers basic Math as a grade 6-8 student, not knowing that will become a passion. You know, there are few things I do without getting tired, and teaching is obviously #1 on the list. From grade 6 to college, I have taught colleagues on countless occassions. 
-            Tell me what else could be passion. For five years, that became my job. Guess when your passion is your job. I LOVE every moment of standing before those kids and imparting knowledge. 
+            For five years, that became my job. Guess when your passion is your job. I LOVE every moment standing before those kids and imparting knowledge. 
             </p>
 
             <p style={{ fontSize: "1.2em", fontWeight: "400", color: "#0f5291" }}>

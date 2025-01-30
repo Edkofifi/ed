@@ -59,6 +59,7 @@ import Projects from "./components/Projects/Projects";
 import WhyCode from "./components/WhyCode/WhyCode";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
+import Research from "./components/Research/Research"
 import {
   HashRouter as Router, 
   Route,
@@ -90,8 +91,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/whycode" element={<WhyCode />} />
+          <Route path="/research" element= {<Research/>}  />
           <Route path="/project" element={<Projects />} />
-          <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
