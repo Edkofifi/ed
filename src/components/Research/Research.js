@@ -1,7 +1,10 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import research_image from "../../Assets/Projects/research-image.jpg";
+import { Container, Row, Col } from "react-bootstrap"
 import Particle from "../Particle"
+import final_year_thesis from "../../Assets/final_year_thesis.pdf"
+import Button from "react-bootstrap/Button"
+import { AiOutlineDownload } from "react-icons/ai";
+import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 
 function Research() {
   return (
@@ -19,7 +22,7 @@ function Research() {
 
           {/* Text Column (2/3 width) */}
           <Col  className="home-about-description">
-            <p style={{ fontSize: "1.5em", fontWeight: "700", color: "#0f5291", marginLeft: "10.0em" }}>
+            <p style={{ fontSize: "1.5em", fontWeight: "700", color: "#0f5291", marginLeft: "10.0em", justifyContent: "center", }}>
                 Research Experience
             </p>
             
@@ -29,7 +32,11 @@ function Research() {
               a systematic review that synthesized 84 papers on credibility factors of virtual reality applications.
 
               <br></br>
-              Our primary goal was to 
+              
+              Download my final year thesis : 
+                <a href={final_year_thesis} download className="download-btn">
+                here
+                </a>
             </p>
 
             {/* <p style={{ fontSize: "1.2em", fontWeight: "400", color: "#0f5291" }}>
