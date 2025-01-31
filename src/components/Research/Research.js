@@ -28,12 +28,31 @@ function Research() {
             
             <p className="home-about-body">
               My research interest has been in computer science education, and HCI. These are key areas that I have studied and have started initial research work on.
-              As a final year student at the University of Ghana, Department of Computer Science, I was collaborated on research works with a PhD candidate. We worked together on 
-              a systematic review that synthesized 84 papers on credibility factors of virtual reality applications.
+              As a final year student at the University of Ghana, Department of Computer Science, I collaborated on research works with a PhD candidate. We worked together on 
+              a systematic review that synthesized 84 papers on credibility factors of virtual reality applications.              
+            </p>
 
-              <br></br>
-              
-              Download my final year thesis : 
+            <p className="home-about-body">
+            The objectives are to: 1) examine the factors that enhance the credibility of VR
+            environments; 2) determine the dimensions used to measure the credibility of VR applications;
+            and 3) catalog the metrics used to assess credibility in VR environments. Adhering to the guidelines
+            set forth by Kitchenham and Charters for systematic literature reviews, the study utilizes academic
+            databases to source relevant research papers. A total of 84 papers that met the inclusion criteria
+            were analyzed, and a thematic summary of the findings is provided. The study reveals that
+            credibility design in VR is a complex and relatively unexplored area that warrants further
+            investigation.
+            </p>
+
+            <p className="home-about-body">
+            Credibility analysis in VR typically focuses on dimensions such as presence, trust,
+            reliability, validity, usability, security, and safety. It also highlights evaluation metrics commonly
+            used to assess credibility, including psychological measures, physiological measures (e.g., eyetracking, heart rate, skin conductance), performance measures (e.g., accuracy, speed, error rate),
+            and behavioral measures (e.g., click-through rate, bounce rate, conversion rate). Finally, the study
+            discusses the implications of these results for designing credible VR and related environments.
+            </p>
+
+            <p className="home-about-body">
+            Download my final year thesis : 
                 <a href={final_year_thesis} download className="download-btn">
                 here
                 </a>
@@ -44,7 +63,7 @@ function Research() {
               </p>
 
             <p className="home-about-body">
-             When I was teaching some students about string slicing, a student asked "But what do we need negative indexes for"? I thought to myself, "wow, what a nice question". After explaining  that sometimes, it's quicker when we want to find what's in the other end of the string, and demonstrating this, I left the class thinking, what if we tell students why we do what we do when learning programming?
+            When I was teaching some students about string slicing, a student asked "But what do we need negative indexes for"? I thought to myself, "wow, what a nice question". After explaining  that sometimes, it's quicker when we want to find what's in the other end of the string, and demonstrating this, I left the class thinking, what if we tell students why we do what we do when learning programming?
 
             </p>
 
