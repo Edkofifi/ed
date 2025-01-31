@@ -29,7 +29,7 @@ function Research() {
             <p className="home-about-body">
               My research interest has been in computer science education, and HCI. These are key areas that I have studied and have started initial research work on.
               As a final year student at the University of Ghana, Department of Computer Science, I collaborated on research works with a PhD candidate. We worked together on 
-              a systematic review that synthesized 84 papers on credibility factors of virtual reality applications.              
+              a systematic review that synthesized papers on credibility factors of virtual reality applications.              
             </p>
 
             <p className="home-about-body">
@@ -52,6 +52,7 @@ function Research() {
             </p>
 
             <p className="home-about-body">
+              This research work was accepted as my final year project. 
             Download my final year thesis : 
                 <a href={final_year_thesis} download className="download-btn">
                 here
